@@ -2,7 +2,7 @@
 import { Config } from "tailwindcss";
 import defaultTheme from "tailwindcss/defaultTheme";
 
-const tailwindConfig: Config = {
+const tailwindConfig = {
   darkMode: ["class"],
   content: ["src/**/*.{ts,tsx,css}"],
   theme: {
